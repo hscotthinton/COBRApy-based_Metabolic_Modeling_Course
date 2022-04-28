@@ -17,18 +17,19 @@ By the end of this course, you will be able to:
 11. Explain and demonstrate strain design
 
 # Course Content
-1. Course Introduction
-2. COBRA Models
-3. Flux Balance Analysis
-4. E.coli Core Metabolic Model
-5. Flux Variability Analysis 
-6. Randomized Sampling
-7. Model Interrogation
-8. Model Creation/Enhancement
-9. Production Envelopes
-10. Gene/Reaction Knockout Strategies
-11. Gene/Reaction Modulation
-12. Strain Design
+1. Course Introduction Module
+2. COBRA Models Module
+3. Flux Balance Analysis Module
+4. E.coli Core Metabolic Model Module
+5. Flux Variability Analysis Module
+6. Randomized Sampling Module
+7. Model Interrogation Module
+8. Model Creation/Enhancement Module
+9. Production Envelopes Module
+10. Gene/Reaction Knockout Strategies Module
+11. Gene/Reaction Modulation Module
+12. Strain Design Module
+13. Omics Module
 
 # Instructor
 
