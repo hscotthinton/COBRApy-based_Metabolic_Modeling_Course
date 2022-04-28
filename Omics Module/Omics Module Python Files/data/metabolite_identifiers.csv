@@ -1,0 +1,87 @@
+,BiGG_id,metabolite_name,name
+0,glx_c,Glyoxylate,Glyoxylate (uM)
+1,3pg_c,3-Phospho-D-glycerate,3-P Glycerate (uM)
+2,mev_R_e,Mevalonate,MEVALONATE extracellular (uM)
+3,nad_e,Nicotinamide adenine dinucleotide,NAD extracellular (uM)
+4,ser__L_c,L-Serine,Serine
+5,dxyl5p_e,1-Deoxy-D-xylulose 5-Phosphate,DXP extracellular (uM)
+6,atp_e,ATP,ATP extracellular (uM)
+7,for_e,Formate,Formate g/L
+8,ip_e,Isopentenol-P,IP extracellular (uM)
+9,his__L_c,L-Histidine,Histidine
+10,succ_e,Succinate,Succinate g/L
+11,2mecdp_e,"2-C-Methyl-D-erythritol 2,4-cyclodiphosphate",MEcPP extracellular (uM)
+12,lim_c,Limonene,Limonene g/L
+13,trp__L_c,L-Tryptophan,Tryptophan
+14,adp_e,ADP,ADP extracellular (uM)
+15,ip_c,Isopentenol-P,IP (uM)
+16,accoa_e,Acetyl-CoA,Acetyl-CoA extracellular (uM)
+17,ala__L_c,L-Alanine,Alanine
+18,nadph_e,Nicotinamide adenine dinucleotide phosphate - reduced,NADPH extracellular (uM)
+19,asn__L_c,L-Asparagine,Asparagine
+20,pyr_e,Pyruvate,Pyruvate g/L
+21,ile__L_c,L-Isoleucine,Isoleucine
+22,4c2me_c,4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol,CDP-ME
+23,hmgcoa_e,3-Hydroxy-3-methyl-glutaryl-CoA,HMG-CoA extracellular (uM)
+24,ipoh_e,Isopentenol,Isopentenol g/L
+25,aacoa_e,Aceto-Acetyl-CoA,Acetoacetyl-CoA extracellular (uM)
+26,leu__L_c,L-Leucine,Leucine
+27,gln__L_c,L-Glutamine,Glutamine
+28,phe__L_c,L-Phenylalanine,Phenylalanine
+29,Cystine,not in model/not found,Cystine
+30,tyr__L_c,L-Tyrosine,Tyrosine
+31,arg__L_c,L-Arginine,Arginine
+32,val__L_c,L-Valine,Valine
+33,atp_c,ATP,ATP (uM)
+34,ex_con.id,not in model/not found,IPP/DMAPP extracellular (uM)
+35,thr__L_c,L-Threonine,Threonine
+36,amp_e,AMP,AMP extracellular (uM)
+37,accoa_c,Acetyl-CoA,Acetyl-CoA (uM)
+38,icit_c,Isocitrate,isocitrate (uM)
+39,cys__L_c,L-Cysteine,Cysteine
+40,5pmev_e,Mevalonate-5P,MEV-P extracellular (uM)
+41,glyclt_c,Glycolate,Glycolate (uM)
+42,mev_R_c,Mevalonate,Intracellular Mevalonate (uM)
+43,h2mb4p_e,1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate,HDMAPP extracellular (uM)
+44,h2mb4p_c,1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate,HDMAPP
+45,lys__L_c,L-Lysine,Lysine
+46,glc__D_e,D-Glucose,Glucose g/L
+47,met__L_c,L-Methionine,Methionine
+48,acon__C_c,cis-Aconitate,cis-aconitate (uM)
+49,cit_c,Citrate,citrate (uM)
+50,asp__L_c,L-Aspartate,Aspartate
+51,lac__D_e,D-Lactate,Lactate g/L
+52,fdp_c,"D-Fructose 1,6-bisphosphate","Fru-1,6-BiP (uM)"
+53,frdp_c,Farnesyl diphosphate,FPP (uM)
+54,akg_c,2-Oxoglutarate,oxoglutarate (uM)
+55,hmgcoa_c,3-Hydroxy-3-methyl-glutaryl-CoA,HMG-CoA (uM)
+56,amp_c,AMP,AMP (uM)
+57,aacoa_c,Acetoacetyl-CoA,Acetoacetyl-coA (uM)
+58,adp_c,ADP,ADP (uM)
+59,pep_c,Phosphoenolpyruvate,PEP (uM)
+60,4c2me_e,4-(Cytidine 5'-diphospho)-2-C-methyl-D-erythritol ,CDP-ME extracellular (uM)
+61,nadp_e,Nicotinamide adenine dinucleotide phosphate,NADP extracellular (uM)
+62,2me4p,not in model/not found,MEP
+63,glu__L_c,L-Glutamate,Glutamate
+64,mal__L_c,L-Malate,malate (uM)
+65,fum_c,Fumarate,fumarate (uM)
+66,pro__L_c,L-Proline,Proline
+67,pyr_c,Pyruvate,Pyruvate (uM)
+68,ac_e,Acetate,Acetate g/L
+69,ggdp_e,GeranylGeranyl-PP,GGPP extracellular (uM)
+70,bis_e,Bisabolene,Bisabolene g/L
+71,lac__D_c,D-Lactate,lactate (uM)
+72,grdp_e,Geranyl-PP,GPP extracellular (uM)
+73,nadh_e,Nicotinamide adenine dinucleotide - reduced,NADH extracellular (uM)
+74,oxalcoa_c,Oxalyl-CoA,oxaloacetate (uM)
+75,grdp_c,Geranyl diphosphate,GPP (uM)
+76,2mecdp_c,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate",ME-cPP
+77,succ_c,Succinate,succinate (uM)
+78,frdp_e,Farnesyl-PP,FPP extracellular (uM)
+79,gly_c,Glycine,Glycine
+80,ipdp_c,Isopentenyl diphosphate,IPP/DMAPP (uM)
+81,dxyl5p_c,1-deoxy-D-xylulose 5-phosphate,DXP
+82,nad_c,Nicotinamide adenine dinucleotide,NAD (uM)
+83,5pmev_c,Mevalonate-5P,Mev-P (uM)
+84,coa_e,Coenzyme A,CoA extracellular (uM)
+85,nadp_c,Nicotinamide adenine dinucleotide phosphate,NADP (uM)

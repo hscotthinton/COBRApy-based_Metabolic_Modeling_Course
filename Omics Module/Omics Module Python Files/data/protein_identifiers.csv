@@ -1,0 +1,77 @@
+,BiGG_id,GPR,name,reaction_name
+0,PDH,(b0114 and b0115 and b0116),DLDH,pyruvate dehydrogenase
+1,ME2,b2463,MAO2,malic enzyme (NADP)
+2,ME1,b1479,MAO1,malic enzyme (NAD)
+3,PGM,(b3612 or b4395 or b0755),GPMA,phosphoglycerate mutase
+4,ACALD,(b0351 or b1241),ADHE,acetaldehyde dehydrogenase (acetylating)
+5,FRD2,(b4151 and b4152 and b4153 and b4154),FRDA,fumarate reductase
+6,FRD3,(b4151 and b4152 and b4153 and b4154),FRDB,fumarate reductase
+7,FRD3,(b4151 and b4152 and b4153 and b4154),FRDC,fumarate reductase
+8,PFL,((b0902 and b0903) or (b0902 and b3114) or (b3951 and b3952) or ((b0902 and b0903) and b2579)),PFLB,pyruvate formate lyase
+9,FUM,(b1612 or b4122 or b1611),FUMA,fumarase
+10,FUM,(b1612 or b4122 or b1611),FUMC,fumarase
+11,SUCDi,(b0721 and b0722 and b0723 and b0724),DHSA,succinate dehydrogenase (irreversible)
+12,SUCOAS,(b0728 and b0729),SUCC,succinyl-CoA synthetase (ADP-forming)
+13,FHL,((b4079 and (b2481 and b2482 and b2483 and b2484 and b2485 and b2486 and b2487 and b2488 and b2489 and b2490)) or (b4079 and (b2719 and b2720 and b2721 and b2722 and b2723 and b2724))),HYCG,Formate-hydrogen lyase
+14,SUCOAS,(b0728 and b0729),SUCD,succinyl-CoA synthetase (ADP-forming)
+15,ICDHyr,b1136,IDH,isocitrate dehydrogenase (NADP)
+16,ACACT1r,(b2224 or b2342 or b3845),AtoB,acetyl-CoA C-acetyltransferase
+17,SUCDi,(b0721 and b0722 and b0723 and b0724),DHSC,succinate dehydrogenase (irreversible)
+18,SUCDi,(b0721 and b0722 and b0723 and b0724),DHSB,succinate dehydrogenase (irreversible)
+19,PFK,(b3916 or b1723),K6PF2,phosphofructokinase
+20,GRTT,b0421,IspA,geranyltranstransferase
+21,ACONTb,(b0118 or b1276),ACON2,"aconitase (half-reaction B, Isocitrate hydro-lyase)"
+22,PFK,(b3916 or b1723),K6PF1,phosphofructokinase
+23,MDH,b3236,MDH,malate dehydrogenase
+24,FBA,(b2097 or b1773 or b2925),F16PA,fructose-bisphosphate aldolase
+25,ACKr,(b3115 or b2296 or b1849),ACKA,acetate kinase
+26,BISS,,Bisabolene,BISS
+27,PGM,(b3612 or b4395 or b0755),GPMI,phosphoglycerate mutase
+28,AKGDH,(b0116 and b0726 and b0727),ODO1,2-Oxogluterate dehydrogenase
+29,AKGDH,(b0116 and b0726 and b0727),ODO2,2-Oxogluterate dehydrogenase
+30,FBP,(b3925 or b4232 or b2930),GLPX2,fructose-bisphosphatase
+31,PGK,b2926,PGK,phosphoglycerate kinase
+32,PTAr,(b2297 or b2458),PTA,phosphotransacetylase
+33,SUCDi,(b0721 and b0722 and b0723 and b0724),DHSD,succinate dehydrogenase (irreversible)
+34,MVD1,,PMD,MVD1
+35,GND,b2029,6PGD,phosphogluconate dehydrogenase
+36,RPI,(b2914 or b4090),RPIA,ribose-5-phosphate isomerase
+37,LACI,not in model/not found,LACI,not in model/not found
+38,TALA,(b2464 or b0008),TALA,transaldolase
+39,PDXPP,b0766,YBHA,Pyridoxine 5-phosphate phosphatase
+40,YPL069C,,GPPS,YPL069C
+41,ERG8,,PMK,ERG8
+42,FHL,((b4079 and (b2481 and b2482 and b2483 and b2484 and b2485 and b2486 and b2487 and b2488 and b2489 and b2490)) or (b4079 and (b2719 and b2720 and b2721 and b2722 and b2723 and b2724))),HYCD,Formate-hydrogen lyase
+43,FHL,((b4079 and (b2481 and b2482 and b2483 and b2484 and b2485 and b2486 and b2487 and b2488 and b2489 and b2490)) or (b4079 and (b2719 and b2720 and b2721 and b2722 and b2723 and b2724))),HYCE,Formate-hydrogen lyase
+44,FHL,((b4079 and (b2481 and b2482 and b2483 and b2484 and b2485 and b2486 and b2487 and b2488 and b2489 and b2490)) or (b4079 and (b2719 and b2720 and b2721 and b2722 and b2723 and b2724))),HYCF,Formate-hydrogen lyase
+45,PYK,(b1854 or b1676),KPYK1,pyruvate kinase
+46,FHL,((b4079 and (b2481 and b2482 and b2483 and b2484 and b2485 and b2486 and b2487 and b2488 and b2489 and b2490)) or (b4079 and (b2719 and b2720 and b2721 and b2722 and b2723 and b2724))),HYCB,Formate-hydrogen lyase
+47,FHL,((b4079 and (b2481 and b2482 and b2483 and b2484 and b2485 and b2486 and b2487 and b2488 and b2489 and b2490)) or (b4079 and (b2719 and b2720 and b2721 and b2722 and b2723 and b2724))),HYCC,Formate-hydrogen lyase
+48,PYK,(b1854 or b1676),KPYK2,pyruvate kinase
+49,FRD3,(b4151 and b4152 and b4153 and b4154),FRDD,fumarate reductase
+50,TALA,(b2464 or b0008),TALB,transaldolase
+51,PPC,b3956,CAPP,phosphoenolpyruvate carboxylase
+52,FBP,(b3925 or b4232 or b2930),GLPX,fructose-bisphosphatase
+53,PTAr,(b2297 or b2458),EUTD,phosphotransacetylase
+54,ENO,b2779,ENO,enolase
+55,GAPD,b1779,G3P1,glyceraldehyde-3-phosphate dehydrogenase
+56,IPDDI,b2889,Idi,isopentenyl-diphosphate D-isomerase
+57,CS,b0720,CISY,citrate synthase
+58,PPS,b1702,PPSA,phosphoenolpyruvate synthase
+59,FDH4pp,((b3892 and b3893 and b3894) or (b1474 and b1475 and b1476)),FDHF,formate dehydrogenase (quinone-8) (periplasm)
+60,TKT2,(b2935 or b2465),TKT2,transketolase
+61,MDH2,b2210,MQO,Malate dehydrogenase (ubiquinone 8 as acceptor)
+62,TKT1,(b2935 or b2465),TKT1,transketolase
+63,PGI,b4025,G6PI,glucose-6-phosphate isomerase
+64,FBA,(b2097 or b1773 or b2925),ALF,fructose-bisphosphate aldolase
+65,ACS,b4069,ACSA,acetyl-CoA synthetase
+66,G6PDH2r,b1852,G6PD,glucose 6-phosphate dehydrogenase
+67,NudB,,NudB,NudB
+68,ERG1,,MK,ERG1
+69,TPI,b3919,TPIS,triose-phosphate isomerase
+70,RPI,(b2914 or b4090),RPIB,ribose-5-phosphate isomerase
+71,PPCK,b3403,PCKA,phosphoenolpyruvate carboxykinase
+72,LIMS,,Limonene Synthase,LIMS
+73,ACONTa,(b0118 or b1276),ACON1,"aconitase (half-reaction A, Citrate hydro-lyase)"
+74,HMGR,,HMGR,HMGR
+75,HMGS,,HMGS,HMGS
