@@ -32,16 +32,5 @@ By the end of this course, you will be able to:
 
 # Instructor
 
-Professor Scott Hinton
+Professor Scott Hinton, Professor  emeritus, Utah State University
 
-Professor  emeritus
-
-Building 650, office
-
-Utah State University - 9820 
-
-Old Main Hill
-
-Logan, UT 84322-9820
-
-e-mail: scott.hinton@usu.edu
