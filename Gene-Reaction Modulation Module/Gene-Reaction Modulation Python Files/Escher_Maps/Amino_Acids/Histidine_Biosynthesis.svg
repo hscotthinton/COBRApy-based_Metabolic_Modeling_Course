@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg class="escher-svg"
+    xmlns="http://www.w3.org/2000/svg" width="3165.8342895507812" height="1669.524917602539">
+    <defs>
+        <style type="text/css">svg.escher-svg .gene-label,svg.escher-svg .label{text-rendering:optimizelegibility;cursor:default}svg.escher-svg #mouse-node{fill:none}svg.escher-svg #canvas{stroke:#ccc;stroke-width:7px;fill:#fff}svg.escher-svg .resize-rect{fill:#000;opacity:0;stroke:none}svg.escher-svg .label{font-family:sans-serif;font-style:italic;font-weight:700;font-size:8px;fill:#000;stroke:none}svg.escher-svg .reaction-label{font-size:30px;fill:#202078;text-rendering:optimizelegibility}svg.escher-svg .node-label{font-size:20px}svg.escher-svg .gene-label{font-size:18px;fill:#202078}svg.escher-svg .text-label .label,svg.escher-svg .text-label-input{font-size:50px}svg.escher-svg .node-circle{stroke-width:2px}svg.escher-svg .midmarker-circle,svg.escher-svg .multimarker-circle{fill:#fff;fill-opacity:.2;stroke:#323232}svg.escher-svg g.selected .node-circle{stroke-width:6px;stroke:#1471c7}svg.escher-svg g.selected .label{fill:#1471c7}svg.escher-svg .metabolite-circle{stroke:#a24510;fill:#e0865b}svg.escher-svg g.selected .metabolite-circle{stroke:#050200}svg.escher-svg .segment{stroke:#334E75;stroke-width:10px;fill:none}svg.escher-svg .arrowhead{fill:#334E75}svg.escher-svg .stoichiometry-label-rect{fill:#fff;opacity:.5}svg.escher-svg .stoichiometry-label{fill:#334E75;font-size:17px}svg.escher-svg .membrane{fill:none;stroke:#fb0}svg.escher-svg .brush .extent{fill-opacity:.1;fill:#000;stroke:#fff;shape-rendering:crispEdges}svg.escher-svg #brush-container .background{fill:none}svg.escher-svg .bezier-circle{fill:#fff}svg.escher-svg .bezier-circle.b1{stroke:red}svg.escher-svg .bezier-circle.b2{stroke:#00f}svg.escher-svg .connect-line{stroke:#c8c8c8}svg.escher-svg .direction-arrow{stroke:#000;stroke-width:1px;fill:#fff;opacity:.3}svg.escher-svg .start-reaction-cursor{cursor:pointer}svg.escher-svg .start-reaction-target{stroke:#646464;fill:none;opacity:.5}svg.escher-svg .rotation-center-line{stroke:red;stroke-width:5px}svg.escher-svg .highlight{fill:#D97000;text-decoration:underline}svg.escher-svg .cursor-grab{cursor:grab;cursor:-webkit-grab}svg.escher-svg .cursor-grabbing{cursor:grabbing;cursor:-webkit-grabbing}svg.escher-svg .edit-text-cursor{cursor:text}</style>
+    </defs>
+    <g class="zoom-g" transform="translate(598.6231079101562,144.62306213378906) scale(1)">
+        <g class="canvas-group">
+            <rect id="mouse-node" width="0px" height="0px" pointer-events="all"/>
+            <rect id="canvas" width="3165.8342895507812" height="1669.524917602539" transform="translate(-598.6231079101562,-144.62306213378906)" style="visibility: hidden;"/>
+            <rect class="drag-rect resize-rect" transform="translate(-648.6231079101562,-94.62306213378906)" height="1569.524917602539" id="dragleft" width="100" cursor="ew-resize" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); pointer-events: auto;"/>
+            <rect class="drag-rect resize-rect" transform="translate(2517.211181640625,-94.62306213378906)" id="dragright" height="1569.524917602539" width="100" cursor="ew-resize" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); pointer-events: auto;"/>
+            <rect class="drag-rect resize-rect" transform="translate(-548.6231079101562,-194.62306213378906)" height="100" id="dragtop" width="3065.8342895507812" cursor="ns-resize" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); pointer-events: auto;"/>
+            <rect class="drag-rect resize-rect" transform="translate(-548.6231079101562,1474.90185546875)" id="dragbottom" height="100" width="3065.8342895507812" cursor="ns-resize" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); pointer-events: auto;"/>
+        </g>
+        <g id="brush-container" fill="none" pointer-events="all" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <rect class="overlay" pointer-events="all" x="-598.6231079101562" y="-144.62306213378906" width="3165.8342895507812" height="1669.524917602539"/>
+            <rect class="selection" fill="#777" fill-opacity="0.3" stroke="#fff" shape-rendering="crispEdges" style="display: none;"/>
+            <rect class="handle handle--n" style="display: none;"/>
+            <rect class="handle handle--e" style="display: none;"/>
+            <rect class="handle handle--s" style="display: none;"/>
+            <rect class="handle handle--w" style="display: none;"/>
+            <rect class="handle handle--nw" style="display: none;"/>
+            <rect class="handle handle--ne" style="display: none;"/>
+            <rect class="handle handle--se" style="display: none;"/>
+            <rect class="handle handle--sw" style="display: none;"/>
+        </g>
+        <g id="reactions">
+            <g id="r1" class="reaction">
+                <g class="reaction-label-group" transform="translate(-51.21339416503906,1285.4176940917969)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                    <text class="reaction-label label" visibility="visible">ATPPRT</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s7">
+                    <path class="segment" d="M-13.229377746582031,1305.4576110839844 6.770622253417969,1305.4576110839844"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s8">
+                    <path class="segment" d="M26.77062225341797,1305.4576110839844 6.770622253417969,1305.4576110839844"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s9">
+                    <path class="segment" d="M26.77062225341797,1305.4576110839844 C72.77062225341797,1305.4576110839844 78.02062225341797,1323.4576110839844 95.99307280847161,1356.4736683999347"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(95.99307280847161,1356.4736683999347)rotate(331.43812351587303)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s10">
+                    <path class="segment" d="M-13.229377746582031,1305.4576110839844 C-59.22937774658203,1305.4576110839844 -64.47937774658203,1323.4576110839844 -88.66722656782666,1367.8915852148634"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s11">
+                    <path class="segment" d="M-13.229377746582031,1305.4576110839844 C-55.22937774658203,1305.4576110839844 -109.47937774658203,1305.4576110839844 -138.22937774658203,1305.4576110839844"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s12">
+                    <path class="segment" d="M26.77062225341797,1305.4576110839844 C68.77062225341797,1305.4576110839844 123.02062225341797,1305.4576110839844 138.77062225341797,1305.4576110839844"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(138.77062225341797,1305.4576110839844)rotate(270)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r2" class="reaction">
+                <g class="reaction-label-group" transform="translate(298.78661346435547,1281.4256896972656)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                    <text class="reaction-label label" visibility="visible">PRATPP</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s13">
+                    <path class="segment" d="M336.77062225341797,1305.4576110839844 356.77062225341797,1305.4576110839844"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s14">
+                    <path class="segment" d="M376.77062225341797,1305.4576110839844 356.77062225341797,1305.4576110839844"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s15">
+                    <path class="segment" d="M376.77062225341797,1305.4576110839844 C422.77062225341797,1305.4576110839844 428.02062225341797,1287.4576110839844 445.9930728084716,1254.441553768034"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(445.9930728084716,1254.441553768034)rotate(208.56187648412697)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s16">
+                    <path class="segment" d="M376.77062225341797,1305.4576110839844 C418.77062225341797,1305.4576110839844 473.02062225341797,1305.4576110839844 488.77062225341797,1305.4576110839844"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(488.77062225341797,1305.4576110839844)rotate(270)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s17">
+                    <path class="segment" d="M376.77062225341797,1305.4576110839844 C422.77062225341797,1305.4576110839844 428.02062225341797,1323.4576110839844 445.9930728084716,1356.4736683999347"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(445.9930728084716,1356.4736683999347)rotate(331.43812351587303)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s18">
+                    <path class="segment" d="M336.77062225341797,1305.4576110839844 C290.77062225341797,1305.4576110839844 285.52062225341797,1323.4576110839844 261.3327734321733,1367.8915852148634"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s19">
+                    <path class="segment" d="M336.77062225341797,1305.4576110839844 C294.77062225341797,1305.4576110839844 240.52062225341797,1305.4576110839844 211.77062225341797,1305.4576110839844"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r3" class="reaction">
+                <g class="reaction-label-group" transform="translate(648.7866134643555,1281.4256896972656)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                    <text class="reaction-label label" visibility="visible">PRAMPC</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s20">
+                    <path class="segment" d="M686.770622253418,1305.4576110839844 706.770622253418,1305.4576110839844"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s21">
+                    <path class="segment" d="M726.770622253418,1305.4576110839844 706.770622253418,1305.4576110839844"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s22">
+                    <path class="segment" d="M726.770622253418,1305.4576110839844 C768.770622253418,1305.4576110839844 823.020622253418,1305.4576110839844 838.770622253418,1305.4576110839844"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(838.770622253418,1305.4576110839844)rotate(270)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s23">
+                    <path class="segment" d="M686.770622253418,1305.4576110839844 C640.770622253418,1305.4576110839844 635.520622253418,1323.4576110839844 611.3327734321733,1367.8915852148634"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s24">
+                    <path class="segment" d="M686.770622253418,1305.4576110839844 C644.770622253418,1305.4576110839844 590.520622253418,1305.4576110839844 561.770622253418,1305.4576110839844"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r7" class="reaction">
+                <g class="reaction-label-group" transform="translate(1081.4512252807617,175.32913208007812)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                    <text class="reaction-label label" visibility="visible">HSTPT</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s42">
+                    <path class="segment" d="M1115.4431686401367,195.36904907226562 1135.4431686401367,195.36904907226562"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s43">
+                    <path class="segment" d="M1155.4431686401367,195.36904907226562 1135.4431686401367,195.36904907226562"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s44">
+                    <path class="segment" d="M1155.4431686401367,195.36904907226562 C1197.4431686401367,195.36904907226562 1251.6931686401367,195.36904907226562 1267.4431686401367,195.36904907226562"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1267.4431686401367,195.36904907226562)rotate(270)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s45">
+                    <path class="segment" d="M1155.4431686401367,195.36904907226562 C1201.4431686401367,195.36904907226562 1222.5515670776367,157.86463928222656 1231.821557881961,135.39671872293775"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1231.821557881961,135.39671872293775)rotate(202.4204483440261)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s46">
+                    <path class="segment" d="M1115.4431686401367,195.36904907226562 C1069.4431686401367,195.36904907226562 1032.4763107299805,165.7938117980957 1015.4185244477367,130.79838867155252"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s47">
+                    <path class="segment" d="M1115.4431686401367,195.36904907226562 C1073.4431686401367,195.36904907226562 939.9011154174805,195.36904907226562 907.7246055996047,197.74444686065385"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r8" class="reaction">
+                <g class="reaction-label-group" transform="translate(1431.4509811401367,175.32913208007812)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                    <text class="reaction-label label" visibility="visible">HISTP</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s48">
+                    <path class="segment" d="M1465.4431686401367,195.36904907226562 1485.4431686401367,195.36904907226562"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s49">
+                    <path class="segment" d="M1505.4431686401367,195.36904907226562 1485.4431686401367,195.36904907226562"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s50">
+                    <path class="segment" d="M1465.4431686401367,195.36904907226562 C1423.4431686401367,195.36904907226562 1369.1931686401367,195.36904907226562 1340.4431686401367,195.36904907226562"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s51">
+                    <path class="segment" d="M1505.4431686401367,195.36904907226562 C1547.4431686401367,195.36904907226562 1601.6931686401367,195.36904907226562 1617.4431686401367,195.36904907226562"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1617.4431686401367,195.36904907226562)rotate(270)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s52">
+                    <path class="segment" d="M1465.4431686401367,195.36904907226562 C1419.4431686401367,195.36904907226562 1414.1931686401367,213.36904907226562 1390.005319818892,257.8030232031447"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s53">
+                    <path class="segment" d="M1505.4431686401367,195.36904907226562 C1551.4431686401367,195.36904907226562 1556.6931686401367,213.36904907226562 1574.6656191951904,246.385106388216"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1574.6656191951904,246.385106388216)rotate(331.43812351587303)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r9" class="reaction">
+                <g class="reaction-label-group" transform="translate(1789.4351119995117,171.33712768554688)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                    <text class="reaction-label label" visibility="visible">HISTD</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s54">
+                    <path class="segment" d="M1815.4431686401367,195.36904907226562 1835.4431686401367,195.36904907226562"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s55">
+                    <path class="segment" d="M1855.4431686401367,195.36904907226562 1835.4431686401367,195.36904907226562"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s56">
+                    <path class="segment" d="M1815.4431686401367,195.36904907226562 C1773.4431686401367,195.36904907226562 1719.1931686401367,195.36904907226562 1690.4431686401367,195.36904907226562"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s57">
+                    <path class="segment" d="M1815.4431686401367,195.36904907226562 C1769.4431686401367,195.36904907226562 1764.1931686401367,177.36904907226562 1740.005319818892,132.9350749413866"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s58">
+                    <path class="segment" d="M1855.4431686401367,195.36904907226562 C1897.4431686401367,195.36904907226562 2123.3496627807617,195.36904907226562 2139.0996627807617,195.36904907226562"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(2139.0996627807617,195.36904907226562)rotate(270)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s59">
+                    <path class="segment" d="M1855.4431686401367,195.36904907226562 C1901.4431686401367,195.36904907226562 1906.6931686401367,177.36904907226562 1924.6656191951904,144.35299175631525"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1924.6656191951904,144.35299175631525)rotate(208.56187648412697)"/>
+                    </g>
+                    <g class="stoichiometry-labels">
+                        <text class="stoichiometry-label" text-anchor="middle" transform="translate(1915.223400827026,138.61599683031483)">3</text>
+                    </g>
+                </g>
+                <g class="segment-group" id="s60">
+                    <path class="segment" d="M1815.4431686401367,195.36904907226562 C1769.4431686401367,195.36904907226562 1764.1931686401367,213.36904907226562 1740.005319818892,257.8030232031447"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels">
+                        <text class="stoichiometry-label" text-anchor="middle" transform="translate(1755.6629364532475,266.1221013142164)">2</text>
+                    </g>
+                </g>
+                <g class="segment-group" id="s61">
+                    <path class="segment" d="M1855.4431686401367,195.36904907226562 C1901.4431686401367,195.36904907226562 1906.6931686401367,213.36904907226562 1924.6656191951904,246.385106388216"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1924.6656191951904,246.385106388216)rotate(331.43812351587303)"/>
+                    </g>
+                    <g class="stoichiometry-labels">
+                        <text class="stoichiometry-label" text-anchor="middle" transform="translate(1940.488205067342,252.3690828769476)">2</text>
+                    </g>
+                </g>
+            </g>
+            <g id="r10" class="reaction">
+                <g class="reaction-label-group" transform="translate(896.770622253418,1180.1034851074219)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                    <text class="reaction-label label" visibility="visible">PRMICI</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s62">
+                    <path class="segment" d="M881.770622253418,1190.1034851074219 881.770622253418,1170.1034851074219"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s63">
+                    <path class="segment" d="M881.770622253418,1150.1034851074219 881.770622253418,1170.1034851074219"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s64">
+                    <path class="segment" d="M881.770622253418,1190.1034851074219 C881.770622253418,1232.1034851074219 881.770622253418,1246.7076110839844 881.770622253418,1262.4576110839844"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(881.770622253418,1262.4576110839844)rotate(360)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s65">
+                    <path class="segment" d="M881.770622253418,1150.1034851074219 C881.770622253418,1108.1034851074219 881.770622253418,1085.5704040527344 881.770622253418,1069.8204040527344"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(881.770622253418,1069.8204040527344)rotate(180)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r11" class="reaction">
+                <g class="reaction-label-group" transform="translate(896.770622253418,861.8204040527344)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                    <text class="reaction-label label" visibility="visible">IG3PS</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s66">
+                    <path class="segment" d="M881.770622253418,871.8204040527344 881.770622253418,851.8204040527344"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s67">
+                    <path class="segment" d="M881.770622253418,831.8204040527344 881.770622253418,851.8204040527344"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s68">
+                    <path class="segment" d="M881.770622253418,831.8204040527344 C881.770622253418,785.8204040527344 933.629020690918,763.8536071777344 961.9184284809521,757.8321810478509"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(961.9184284809521,757.8321810478509)rotate(257.9838651929355)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s69">
+                    <path class="segment" d="M881.770622253418,831.8204040527344 C881.770622253418,785.8204040527344 903.735221862793,732.9952087402344 917.7675800150035,724.4045857096534"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(917.7675800150035,724.4045857096534)rotate(238.5249920747199)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s70">
+                    <path class="segment" d="M881.770622253418,831.8204040527344 C881.770622253418,789.8204040527344 881.770622253418,672.1368103027344 881.770622253418,656.3868103027344"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(881.770622253418,656.3868103027344)rotate(180)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s71">
+                    <path class="segment" d="M881.770622253418,831.8204040527344 C881.770622253418,785.8204040527344 859.806022644043,776.6058044433594 831.1297377438829,761.8883281837335"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(831.1297377438829,761.8883281837335)rotate(117.16817063483812)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s72">
+                    <path class="segment" d="M881.770622253418,871.8204040527344 C881.770622253418,913.8204040527344 881.770622253418,968.0704040527344 881.770622253418,996.8204040527344"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s73">
+                    <path class="segment" d="M881.770622253418,871.8204040527344 C881.770622253418,917.8204040527344 919.593620300293,923.0704040527344 944.0132343880373,935.7246936732831"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r12" class="reaction">
+                <g class="reaction-label-group" transform="translate(896.770622253418,436.4929504394531)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                    <text class="reaction-label label" visibility="visible">IGPDH</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s74">
+                    <path class="segment" d="M881.770622253418,446.4929504394531 881.770622253418,426.4929504394531"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s75">
+                    <path class="segment" d="M881.770622253418,406.4929504394531 881.770622253418,426.4929504394531"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s76">
+                    <path class="segment" d="M881.770622253418,406.4929504394531 C881.770622253418,360.4929504394531 891.841423034668,355.2429504394531 924.8574803506184,337.2704998843995"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(924.8574803506184,337.2704998843995)rotate(241.43812351587306)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s77">
+                    <path class="segment" d="M881.770622253418,406.4929504394531 C881.770622253418,364.4929504394531 877.806022644043,258.7031555175781 877.806022644043,242.95315551757812"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(877.806022644043,242.95315551757812)rotate(180)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s78">
+                    <path class="segment" d="M881.770622253418,446.4929504394531 C881.770622253418,488.4929504394531 881.770622253418,554.6368103027344 881.770622253418,583.3868103027344"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r13" class="reaction">
+                <g class="reaction-label-group" transform="translate(-153.22937774658203,1140.4576110839844)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                    <text class="reaction-label label" visibility="visible">PRPPS</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s79">
+                    <path class="segment" d="M-168.22937774658203,1110.4576110839844 -168.22937774658203,1130.4576110839844"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s80">
+                    <path class="segment" d="M-168.22937774658203,1150.4576110839844 -168.22937774658203,1130.4576110839844"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s81">
+                    <path class="segment" d="M-168.22937774658203,1150.4576110839844 C-168.22937774658203,1196.4576110839844 -186.22937774658203,1201.7076110839844 -219.2454350625324,1219.680061639038"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(-219.2454350625324,1219.680061639038)rotate(421.4381235158731)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s82">
+                    <path class="segment" d="M-168.22937774658203,1110.4576110839844 C-168.229377746582,1068.4576110839844 -172.19397735595703,966.6323547363281 -172.19397735595703,950.8823547363281"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(-172.19397735595703,950.8823547363281)rotate(180)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s83">
+                    <path class="segment" d="M-168.22937774658203,1150.4576110839844 C-168.22937774658203,1196.4576110839844 -150.22937774658203,1201.7076110839844 -117.21332043063164,1219.680061639038"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(-117.21332043063164,1219.680061639038)rotate(298.56187648412697)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s84">
+                    <path class="segment" d="M-168.22937774658203,1150.4576110839844 C-168.22937774658203,1192.4576110839844 -168.22937774658203,1246.7076110839844 -168.22937774658203,1262.4576110839844"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(-168.22937774658203,1262.4576110839844)rotate(360)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s85">
+                    <path class="segment" d="M-168.22937774658203,1110.4576110839844 C-168.229377746582,1064.4576110839844 -150.22937774658203,1059.2076110839844 -117.21332043063164,1041.2351605289307"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(-117.21332043063164,1041.2351605289307)rotate(241.43812351587306)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r14" class="reaction">
+                <g class="reaction-label-group" transform="translate(2091.2031784057617,664.9659729003906)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                    <text class="reaction-label label" visibility="visible">HISabcpp</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s86">
+                    <path class="segment" d="M2076.2031784057617,674.9659729003906 2076.2031784057617,654.9659729003906"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s87">
+                    <path class="segment" d="M2076.2031784057617,634.9659729003906 2076.2031784057617,654.9659729003906"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s88">
+                    <path class="segment" d="M2076.2031784057617,674.9659729003906 C2087.7856979370117,711.0381774902344 2094.2031784057617,726.2159729003906 2138.6371525366408,750.4038217216353"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s89">
+                    <path class="segment" d="M2076.2031784057617,634.9659729003906 C2076.2031784057617,588.9659729003906 2094.2031784057617,583.7159729003906 2127.2192357217123,565.7435223453369"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(2127.2192357217123,565.7435223453369)rotate(241.43812351587306)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s90">
+                    <path class="segment" d="M2076.2031784057617,674.9659729003906 C2072.8938522338867,709.3835144042969 2058.2031784057617,726.2159729003906 2013.7692042748827,750.4038217216353"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s91">
+                    <path class="segment" d="M2076.2031784057617,634.9659729003906 C2049.7290573120117,462.24993896484375 2145.6978073120117,259.08294677734375 2160.76837700926,232.70504038540102"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(2160.76837700926,232.70504038540102)rotate(209.7407553228642)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s92">
+                    <path class="segment" d="M2076.2031784057617,634.9659729003906 C2061.3113327026367,590.6205749511719 2058.2031784057617,583.7159729003906 2025.1871210898114,565.7435223453369"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(2025.1871210898114,565.7435223453369)rotate(118.56187648412694)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s93">
+                    <path class="segment" d="M2076.2031784057617,634.9659729003906 C2069.5845260620117,592.2752380371094 2040.2031784057617,598.7159729003906 1948.3504243144414,577.4194674155078"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1948.3504243144414,577.4194674155078)rotate(103.05365849876614)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s94">
+                    <path class="segment" d="M2076.2031784057617,674.9659729003906 C2071.2393112182617,854.3005065917969 2210.2283248901367,1074.0140686035156 2240.8202585623753,1111.2407043440485"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r15" class="reaction">
+                <g class="reaction-label-group" transform="translate(2390.6917037963867,664.9659118652344)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                    <text class="reaction-label label" visibility="visible">HISt2rpp</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s95">
+                    <path class="segment" d="M2375.6917037963867,674.9659118652344 2375.6917037963867,654.9659118652344"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s96">
+                    <path class="segment" d="M2375.6917037963867,634.9659118652344 2375.6917037963867,654.9659118652344"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s97">
+                    <path class="segment" d="M2375.6917037963867,634.9659118652344 C2365.7639694213867,447.35821533203125 2226.7747116088867,259.0829620361328 2206.7864654412897,230.57645986033913"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(2206.7864654412897,230.57645986033913)rotate(144.96255300369654)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s98">
+                    <path class="segment" d="M2375.6917037963867,674.9659118652344 C2388.9287643432617,836.0995178222656 2289.6506881713867,1064.0861511230469 2276.6348591754954,1094.8225010847643"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(2276.6348591754954,1094.8225010847643)rotate(382.9510529758298)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s99">
+                    <path class="segment" d="M2375.6917037963867,634.9659118652344 C2375.6917037963867,588.9659118652344 2357.6917037963867,583.7159118652344 2324.675646480436,565.7434613101807"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(2324.675646480436,565.7434613101807)rotate(118.56187648412694)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s100">
+                    <path class="segment" d="M2375.6917037963867,674.9659118652344 C2375.6917037963867,720.9659118652344 2357.6917037963867,726.2159118652344 2324.675646480436,744.1883624202881"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(2324.675646480436,744.1883624202881)rotate(421.4381235158731)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r16" class="reaction">
+                <g class="reaction-label-group" transform="translate(2038.1765670776367,1107.6556091308594)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                    <text class="reaction-label label" visibility="visible">HIStex</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s101">
+                    <path class="segment" d="M2064.8672409057617,1134.4185485839844 2084.8672409057617,1134.4185485839844"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s102">
+                    <path class="segment" d="M2104.8672409057617,1134.4185485839844 2084.8672409057617,1134.4185485839844"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s103">
+                    <path class="segment" d="M2104.8672409057617,1134.4185485839844 C2146.8672409057617,1134.4185485839844 2201.1172409057617,1134.4185485839844 2216.8672409057617,1134.4185485839844"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(2216.8672409057617,1134.4185485839844)rotate(270)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s104">
+                    <path class="segment" d="M2064.8672409057617,1134.4185485839844 C2022.8672409057617,1134.4185485839844 2008.3285446166992,1134.4185485839844 1992.5785446166992,1134.4185485839844"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1992.5785446166992,1134.4185485839844)rotate(90)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r17" class="reaction">
+                <g class="reaction-label-group" transform="translate(1698.1044235229492,1112.6194763183594)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                    <text class="reaction-label label" visibility="visible">EX_his__L_e</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s105">
+                    <path class="segment" d="M1710.1923141479492,1136.0732116699219 1690.1923141479492,1136.0732116699219"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s106">
+                    <path class="segment" d="M1670.1923141479492,1136.0732116699219 1690.1923141479492,1136.0732116699219"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1670.1923141479492,1136.0732116699219)rotate(90)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s107">
+                    <path class="segment" d="M1710.1923141479492,1136.0732116699219 C1752.1923141479492,1136.0732116699219 1890.8285446166992,1134.4185485839844 1919.5785446166992,1134.4185485839844"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+        </g>
+        <g id="nodes">
+            <g class="node" id="n92">
+                <circle class="node-circle metabolite-circle" transform="translate(1996.2031784057617,759.9659729003906)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(1951.2031784057617,789.9659729003906)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">atp_c</text>
+            </g>
+            <g class="node" id="n105">
+                <circle class="node-circle metabolite-circle" transform="translate(1949.5785446166992,1134.4185485839844)" r="20" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(1906.3785446166994,1174.4185485839844)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">his__L_e</text>
+            </g>
+            <g class="node" id="n99">
+                <circle class="node-circle metabolite-circle" transform="translate(2259.8672409057617,1134.4185485839844)" r="20" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(2293.1404342651367,1144.3464050292969)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">his__L_p</text>
+            </g>
+            <g class="node" id="n108">
+                <circle class="node-circle multimarker-circle" transform="translate(1670.1923141479492,1136.0732116699219)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n59">
+                <circle class="node-circle metabolite-circle" transform="translate(2182.0996627807617,195.36904907226562)" r="20" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(2212.386479187012,202.67002868652344)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">his__L_c</text>
+            </g>
+            <g class="node" id="n6">
+                <circle class="node-circle metabolite-circle" transform="translate(-168.22937774658203,1305.4576110839844)" r="20" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(-195.22937774658203,1345.4576110839844)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">prpp_c</text>
+            </g>
+            <g class="node" id="n8">
+                <circle class="node-circle multimarker-circle" transform="translate(-13.229377746582031,1305.4576110839844)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n9">
+                <circle class="node-circle midmarker-circle" transform="translate(6.770622253417969,1305.4576110839844)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n10">
+                <circle class="node-circle multimarker-circle" transform="translate(26.77062225341797,1305.4576110839844)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n11">
+                <circle class="node-circle metabolite-circle" transform="translate(111.77062225341797,1385.4576110839844)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(84.77062225341797,1425.4576110839844)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">ppi_c</text>
+            </g>
+            <g class="node" id="n12">
+                <circle class="node-circle metabolite-circle" transform="translate(-98.22937774658203,1385.4576110839844)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(-125.22937774658203,1425.4576110839844)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">atp_c</text>
+            </g>
+            <g class="node" id="n13">
+                <circle class="node-circle metabolite-circle" transform="translate(181.77062225341797,1305.4576110839844)" r="20" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(138.57062225341792,1345.4576110839844)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">prbatp_c</text>
+            </g>
+            <g class="node" id="n14">
+                <circle class="node-circle multimarker-circle" transform="translate(336.77062225341797,1305.4576110839844)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n15">
+                <circle class="node-circle midmarker-circle" transform="translate(356.77062225341797,1305.4576110839844)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n16">
+                <circle class="node-circle multimarker-circle" transform="translate(376.77062225341797,1305.4576110839844)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n17">
+                <circle class="node-circle metabolite-circle" transform="translate(461.77062225341797,1225.4576110839844)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(434.77062225341797,1205.4576110839844)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">ppi_c</text>
+            </g>
+            <g class="node" id="n18">
+                <circle class="node-circle metabolite-circle" transform="translate(531.770622253418,1305.4576110839844)" r="20" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(488.5706222534179,1345.4576110839844)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">prbamp_c</text>
+            </g>
+            <g class="node" id="n19">
+                <circle class="node-circle metabolite-circle" transform="translate(461.77062225341797,1385.4576110839844)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(445.5706222534179,1425.4576110839844)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">h_c</text>
+            </g>
+            <g class="node" id="n20">
+                <circle class="node-circle metabolite-circle" transform="translate(251.77062225341797,1385.4576110839844)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(224.77062225341797,1425.4576110839844)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">h2o_c</text>
+            </g>
+            <g class="node" id="n21">
+                <circle class="node-circle multimarker-circle" transform="translate(686.770622253418,1305.4576110839844)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n22">
+                <circle class="node-circle midmarker-circle" transform="translate(706.770622253418,1305.4576110839844)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n23">
+                <circle class="node-circle multimarker-circle" transform="translate(726.770622253418,1305.4576110839844)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n24">
+                <circle class="node-circle metabolite-circle" transform="translate(881.770622253418,1305.4576110839844)" r="20" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(853.3626266479491,1349.4496154785156)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">prfp_c</text>
+            </g>
+            <g class="node" id="n25">
+                <circle class="node-circle metabolite-circle" transform="translate(601.770622253418,1385.4576110839844)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(574.770622253418,1425.4576110839844)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">h2o_c</text>
+            </g>
+            <g class="node" id="n43">
+                <circle class="node-circle multimarker-circle" transform="translate(1115.4431686401367,195.36904907226562)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n44">
+                <circle class="node-circle midmarker-circle" transform="translate(1135.4431686401367,195.36904907226562)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n45">
+                <circle class="node-circle multimarker-circle" transform="translate(1155.4431686401367,195.36904907226562)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n46">
+                <circle class="node-circle metabolite-circle" transform="translate(1310.4431686401367,195.36904907226562)" r="20" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(1278.0431686401366,235.36904907226562)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">hisp_c</text>
+            </g>
+            <g class="node" id="n47">
+                <circle class="node-circle metabolite-circle" transform="translate(1244.4077682495117,104.89118957519531)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(1261.0183639526367,109.20977783203125)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">akg_c</text>
+            </g>
+            <g class="node" id="n48">
+                <circle class="node-circle metabolite-circle" transform="translate(1006.6555099487305,112.82035827636719)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(892.0926559448244,125.06814575195312)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">glu__L_c</text>
+            </g>
+            <g class="node" id="n49">
+                <circle class="node-circle multimarker-circle" transform="translate(1465.4431686401367,195.36904907226562)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n50">
+                <circle class="node-circle midmarker-circle" transform="translate(1485.4431686401367,195.36904907226562)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n51">
+                <circle class="node-circle multimarker-circle" transform="translate(1505.4431686401367,195.36904907226562)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n52">
+                <circle class="node-circle metabolite-circle" transform="translate(1660.4431686401367,195.36904907226562)" r="20" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(1622.6431686401365,235.36904907226562)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">histd_c</text>
+            </g>
+            <g class="node" id="n53">
+                <circle class="node-circle metabolite-circle" transform="translate(1380.4431686401367,275.3690490722656)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(1353.4431686401367,315.3690490722656)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">h2o_c</text>
+            </g>
+            <g class="node" id="n54">
+                <circle class="node-circle metabolite-circle" transform="translate(1590.4431686401367,275.3690490722656)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(1568.8431686401368,315.3690490722656)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">pi_c</text>
+            </g>
+            <g class="node" id="n55">
+                <circle class="node-circle multimarker-circle" transform="translate(1815.4431686401367,195.36904907226562)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n56">
+                <circle class="node-circle midmarker-circle" transform="translate(1835.4431686401367,195.36904907226562)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n57">
+                <circle class="node-circle multimarker-circle" transform="translate(1855.4431686401367,195.36904907226562)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n58">
+                <circle class="node-circle metabolite-circle" transform="translate(1730.4431686401367,115.36904907226562)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(1703.4431686401367,95.36904907226562)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">h2o_c</text>
+            </g>
+            <g class="node" id="n60">
+                <circle class="node-circle metabolite-circle" transform="translate(1940.4431686401367,115.36904907226562)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(1924.243168640137,95.36904907226562)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">h_c</text>
+            </g>
+            <g class="node" id="n61">
+                <circle class="node-circle metabolite-circle" transform="translate(1730.4431686401367,275.3690490722656)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(1703.4431686401367,315.3690490722656)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">nad_c</text>
+            </g>
+            <g class="node" id="n62">
+                <circle class="node-circle metabolite-circle" transform="translate(1940.4431686401367,275.3690490722656)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(1908.0431686401366,315.3690490722656)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">nadh_c</text>
+            </g>
+            <g class="node" id="n63">
+                <circle class="node-circle multimarker-circle" transform="translate(881.770622253418,1190.1034851074219)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n64">
+                <circle class="node-circle midmarker-circle" transform="translate(881.770622253418,1170.1034851074219)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n65">
+                <circle class="node-circle multimarker-circle" transform="translate(881.770622253418,1150.1034851074219)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n66">
+                <circle class="node-circle metabolite-circle" transform="translate(881.770622253418,1026.8204040527344)" r="20" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(906.770622253418,1026.8204040527344)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">prlp_c</text>
+            </g>
+            <g class="node" id="n67">
+                <circle class="node-circle multimarker-circle" transform="translate(881.770622253418,871.8204040527344)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n68">
+                <circle class="node-circle midmarker-circle" transform="translate(881.770622253418,851.8204040527344)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n69">
+                <circle class="node-circle multimarker-circle" transform="translate(881.770622253418,831.8204040527344)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n70">
+                <circle class="node-circle metabolite-circle" transform="translate(994.1953659057617,750.9620056152344)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(1009.1953659057617,750.9620056152344)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">aicar_c</text>
+            </g>
+            <g class="node" id="n71">
+                <circle class="node-circle metabolite-circle" transform="translate(945.912223815918,707.1744079589844)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(960.912223815918,707.1744079589844)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">glu__L_c</text>
+            </g>
+            <g class="node" id="n72">
+                <circle class="node-circle metabolite-circle" transform="translate(881.770622253418,613.3868103027344)" r="20" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(906.770622253418,613.3868103027344)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">eig3p_c</text>
+            </g>
+            <g class="node" id="n73">
+                <circle class="node-circle metabolite-circle" transform="translate(801.770622253418,746.8204040527344)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(729.770622253418,776.8204040527344)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">h_c</text>
+            </g>
+            <g class="node" id="n74">
+                <circle class="node-circle metabolite-circle" transform="translate(961.770622253418,944.9266052246094)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(929.1953659057617,984.5726013183594)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">gln__L_c</text>
+            </g>
+            <g class="node" id="n75">
+                <circle class="node-circle multimarker-circle" transform="translate(881.770622253418,446.4929504394531)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n76">
+                <circle class="node-circle midmarker-circle" transform="translate(881.770622253418,426.4929504394531)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n77">
+                <circle class="node-circle multimarker-circle" transform="translate(881.770622253418,406.4929504394531)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n78">
+                <circle class="node-circle metabolite-circle" transform="translate(953.841423034668,321.4929504394531)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(968.841423034668,321.4929504394531)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">h2o_c</text>
+            </g>
+            <g class="node" id="n79">
+                <circle class="node-circle metabolite-circle" transform="translate(877.806022644043,199.95315551757812)" r="20" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(760.0803146362305,203.91775512695312)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">imacp_c</text>
+            </g>
+            <g class="node" id="n80">
+                <circle class="node-circle multimarker-circle" transform="translate(-168.22937774658203,1110.4576110839844)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n81">
+                <circle class="node-circle midmarker-circle" transform="translate(-168.22937774658203,1130.4576110839844)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n82">
+                <circle class="node-circle multimarker-circle" transform="translate(-168.22937774658203,1150.4576110839844)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n83">
+                <circle class="node-circle metabolite-circle" transform="translate(-248.22937774658203,1235.4576110839844)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(-275.22937774658203,1265.4576110839844)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">h_c</text>
+            </g>
+            <g class="node" id="n84">
+                <circle class="node-circle metabolite-circle" transform="translate(-172.19397735595703,907.8823547363281)" r="20" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(-143.22937774658203,915.8115539550781)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">r5p_c</text>
+            </g>
+            <g class="node" id="n85">
+                <circle class="node-circle metabolite-circle" transform="translate(-88.22937774658203,1235.4576110839844)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(-73.22937774658203,1235.4576110839844)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">amp_c</text>
+            </g>
+            <g class="node" id="n86">
+                <circle class="node-circle metabolite-circle" transform="translate(-88.22937774658203,1025.4576110839844)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(-73.22937774658203,1025.4576110839844)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">atp_c</text>
+            </g>
+            <g class="node" id="n87">
+                <circle class="node-circle multimarker-circle" transform="translate(2076.2031784057617,674.9659729003906)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n88">
+                <circle class="node-circle midmarker-circle" transform="translate(2076.2031784057617,654.9659729003906)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n89">
+                <circle class="node-circle multimarker-circle" transform="translate(2076.2031784057617,634.9659729003906)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n90">
+                <circle class="node-circle metabolite-circle" transform="translate(2156.2031784057617,759.9659729003906)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(2139.7651901245117,796.3678894042969)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">h2o_c</text>
+            </g>
+            <g class="node" id="n91">
+                <circle class="node-circle metabolite-circle" transform="translate(2156.2031784057617,549.9659729003906)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(2139.7651901245117,523.4918212890625)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">pi_c</text>
+            </g>
+            <g class="node" id="n93">
+                <circle class="node-circle metabolite-circle" transform="translate(1996.2031784057617,549.9659729003906)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(1980.7855758666992,523.7084045410156)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">h_c</text>
+            </g>
+            <g class="node" id="n94">
+                <circle class="node-circle metabolite-circle" transform="translate(1916.2031784057617,569.9659729003906)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(1871.2031784057617,599.9659729003906)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">adp_c</text>
+            </g>
+            <g class="node" id="n96">
+                <circle class="node-circle multimarker-circle" transform="translate(2375.6917037963867,674.9659118652344)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n97">
+                <circle class="node-circle midmarker-circle" transform="translate(2375.6917037963867,654.9659118652344)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n98">
+                <circle class="node-circle multimarker-circle" transform="translate(2375.6917037963867,634.9659118652344)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n100">
+                <circle class="node-circle metabolite-circle" transform="translate(2295.6917037963867,549.9659118652344)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(2273.6555709838867,525.3630065917969)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">h_c</text>
+            </g>
+            <g class="node" id="n101">
+                <circle class="node-circle metabolite-circle" transform="translate(2295.6917037963867,759.9659118652344)" r="10" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+                <text class="node-label label" visibility="visible" transform="translate(2268.6917037963867,789.9659118652344)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">h_p</text>
+            </g>
+            <g class="node" id="n102">
+                <circle class="node-circle multimarker-circle" transform="translate(2064.8672409057617,1134.4185485839844)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n103">
+                <circle class="node-circle midmarker-circle" transform="translate(2084.8672409057617,1134.4185485839844)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n104">
+                <circle class="node-circle multimarker-circle" transform="translate(2104.8672409057617,1134.4185485839844)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n106">
+                <circle class="node-circle multimarker-circle" transform="translate(1710.1923141479492,1136.0732116699219)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+            <g class="node" id="n107">
+                <circle class="node-circle midmarker-circle" transform="translate(1690.1923141479492,1136.0732116699219)" r="5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); visibility: hidden;"/>
+            </g>
+        </g>
+        <g id="beziers">
+            <g id="9_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M72.77062225341797, 1305.4576110839844 26.77062225341797,1305.4576110839844"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(72.77062225341797,1305.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="9_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M78.02062225341797, 1323.4576110839844 111.77062225341797,1385.4576110839844"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(78.02062225341797,1323.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="10_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M-59.22937774658203, 1305.4576110839844 -13.229377746582031,1305.4576110839844"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(-59.22937774658203,1305.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="10_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M-64.47937774658203, 1323.4576110839844 -98.22937774658203,1385.4576110839844"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(-64.47937774658203,1323.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="11_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M-55.22937774658203, 1305.4576110839844 -13.229377746582031,1305.4576110839844"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(-55.22937774658203,1305.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="11_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M-109.47937774658203, 1305.4576110839844 -168.22937774658203,1305.4576110839844"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(-109.47937774658203,1305.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="12_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M68.77062225341797, 1305.4576110839844 26.77062225341797,1305.4576110839844"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(68.77062225341797,1305.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="12_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M123.02062225341797, 1305.4576110839844 181.77062225341797,1305.4576110839844"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(123.02062225341797,1305.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="15_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M422.77062225341797, 1305.4576110839844 376.77062225341797,1305.4576110839844"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(422.77062225341797,1305.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="15_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M428.02062225341797, 1287.4576110839844 461.77062225341797,1225.4576110839844"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(428.02062225341797,1287.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="16_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M418.77062225341797, 1305.4576110839844 376.77062225341797,1305.4576110839844"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(418.77062225341797,1305.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="16_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M473.02062225341797, 1305.4576110839844 531.770622253418,1305.4576110839844"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(473.02062225341797,1305.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="17_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M422.77062225341797, 1305.4576110839844 376.77062225341797,1305.4576110839844"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(422.77062225341797,1305.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="17_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M428.02062225341797, 1323.4576110839844 461.77062225341797,1385.4576110839844"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(428.02062225341797,1323.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="18_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M290.77062225341797, 1305.4576110839844 336.77062225341797,1305.4576110839844"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(290.77062225341797,1305.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="18_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M285.52062225341797, 1323.4576110839844 251.77062225341797,1385.4576110839844"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(285.52062225341797,1323.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="19_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M294.77062225341797, 1305.4576110839844 336.77062225341797,1305.4576110839844"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(294.77062225341797,1305.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="19_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M240.52062225341797, 1305.4576110839844 181.77062225341797,1305.4576110839844"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(240.52062225341797,1305.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="22_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M768.770622253418, 1305.4576110839844 726.770622253418,1305.4576110839844"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(768.770622253418,1305.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="22_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M823.020622253418, 1305.4576110839844 881.770622253418,1305.4576110839844"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(823.020622253418,1305.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="23_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M640.770622253418, 1305.4576110839844 686.770622253418,1305.4576110839844"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(640.770622253418,1305.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="23_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M635.520622253418, 1323.4576110839844 601.770622253418,1385.4576110839844"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(635.520622253418,1323.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="24_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M644.770622253418, 1305.4576110839844 686.770622253418,1305.4576110839844"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(644.770622253418,1305.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="24_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M590.520622253418, 1305.4576110839844 531.770622253418,1305.4576110839844"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(590.520622253418,1305.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="44_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1197.4431686401367, 195.36904907226562 1155.4431686401367,195.36904907226562"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(1197.4431686401367,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="44_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1251.6931686401367, 195.36904907226562 1310.4431686401367,195.36904907226562"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(1251.6931686401367,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="45_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1201.4431686401367, 195.36904907226562 1155.4431686401367,195.36904907226562"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(1201.4431686401367,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="45_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1222.5515670776367, 157.86463928222656 1244.4077682495117,104.89118957519531"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(1222.5515670776367,157.86463928222656)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="46_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1069.4431686401367, 195.36904907226562 1115.4431686401367,195.36904907226562"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(1069.4431686401367,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="46_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1032.4763107299805, 165.7938117980957 1006.6555099487305,112.82035827636719"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(1032.4763107299805,165.7938117980957)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="47_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1073.4431686401367, 195.36904907226562 1115.4431686401367,195.36904907226562"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(1073.4431686401367,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="47_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M939.9011154174805, 195.36904907226562 877.806022644043,199.95315551757812"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(939.9011154174805,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="50_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1423.4431686401367, 195.36904907226562 1465.4431686401367,195.36904907226562"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(1423.4431686401367,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="50_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1369.1931686401367, 195.36904907226562 1310.4431686401367,195.36904907226562"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(1369.1931686401367,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="51_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1547.4431686401367, 195.36904907226562 1505.4431686401367,195.36904907226562"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(1547.4431686401367,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="51_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1601.6931686401367, 195.36904907226562 1660.4431686401367,195.36904907226562"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(1601.6931686401367,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="52_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1419.4431686401367, 195.36904907226562 1465.4431686401367,195.36904907226562"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(1419.4431686401367,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="52_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1414.1931686401367, 213.36904907226562 1380.4431686401367,275.3690490722656"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(1414.1931686401367,213.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="53_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1551.4431686401367, 195.36904907226562 1505.4431686401367,195.36904907226562"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(1551.4431686401367,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="53_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1556.6931686401367, 213.36904907226562 1590.4431686401367,275.3690490722656"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(1556.6931686401367,213.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="56_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1773.4431686401367, 195.36904907226562 1815.4431686401367,195.36904907226562"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(1773.4431686401367,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="56_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1719.1931686401367, 195.36904907226562 1660.4431686401367,195.36904907226562"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(1719.1931686401367,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="57_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1769.4431686401367, 195.36904907226562 1815.4431686401367,195.36904907226562"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(1769.4431686401367,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="57_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1764.1931686401367, 177.36904907226562 1730.4431686401367,115.36904907226562"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(1764.1931686401367,177.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="58_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1897.4431686401367, 195.36904907226562 1855.4431686401367,195.36904907226562"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(1897.4431686401367,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="58_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2123.3496627807617, 195.36904907226562 2182.0996627807617,195.36904907226562"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(2123.3496627807617,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="59_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1901.4431686401367, 195.36904907226562 1855.4431686401367,195.36904907226562"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(1901.4431686401367,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="59_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1906.6931686401367, 177.36904907226562 1940.4431686401367,115.36904907226562"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(1906.6931686401367,177.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="60_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1769.4431686401367, 195.36904907226562 1815.4431686401367,195.36904907226562"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(1769.4431686401367,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="60_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1764.1931686401367, 213.36904907226562 1730.4431686401367,275.3690490722656"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(1764.1931686401367,213.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="61_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1901.4431686401367, 195.36904907226562 1855.4431686401367,195.36904907226562"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(1901.4431686401367,195.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="61_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M1906.6931686401367, 213.36904907226562 1940.4431686401367,275.3690490722656"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(1906.6931686401367,213.36904907226562)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="64_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M881.770622253418, 1232.1034851074219 881.770622253418,1190.1034851074219"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(881.770622253418,1232.1034851074219)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="64_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M881.770622253418, 1246.7076110839844 881.770622253418,1305.4576110839844"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(881.770622253418,1246.7076110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="65_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M881.770622253418, 1108.1034851074219 881.770622253418,1150.1034851074219"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(881.770622253418,1108.1034851074219)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="65_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M881.770622253418, 1085.5704040527344 881.770622253418,1026.8204040527344"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(881.770622253418,1085.5704040527344)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="68_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M881.770622253418, 785.8204040527344 881.770622253418,831.8204040527344"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(881.770622253418,785.8204040527344)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="68_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M933.629020690918, 763.8536071777344 994.1953659057617,750.9620056152344"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(933.629020690918,763.8536071777344)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="69_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M881.770622253418, 785.8204040527344 881.770622253418,831.8204040527344"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(881.770622253418,785.8204040527344)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="69_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M903.735221862793, 732.9952087402344 945.912223815918,707.1744079589844"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(903.735221862793,732.9952087402344)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="70_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M881.770622253418, 789.8204040527344 881.770622253418,831.8204040527344"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(881.770622253418,789.8204040527344)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="70_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M881.770622253418, 672.1368103027344 881.770622253418,613.3868103027344"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(881.770622253418,672.1368103027344)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="71_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M881.770622253418, 785.8204040527344 881.770622253418,831.8204040527344"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(881.770622253418,785.8204040527344)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="71_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M859.806022644043, 776.6058044433594 801.770622253418,746.8204040527344"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(859.806022644043,776.6058044433594)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="72_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M881.770622253418, 913.8204040527344 881.770622253418,871.8204040527344"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(881.770622253418,913.8204040527344)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="72_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M881.770622253418, 968.0704040527344 881.770622253418,1026.8204040527344"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(881.770622253418,968.0704040527344)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="73_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M881.770622253418, 917.8204040527344 881.770622253418,871.8204040527344"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(881.770622253418,917.8204040527344)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="73_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M919.593620300293, 923.0704040527344 961.770622253418,944.9266052246094"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(919.593620300293,923.0704040527344)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="76_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M881.770622253418, 360.4929504394531 881.770622253418,406.4929504394531"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(881.770622253418,360.4929504394531)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="76_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M891.841423034668, 355.2429504394531 953.841423034668,321.4929504394531"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(891.841423034668,355.2429504394531)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="77_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M881.770622253418, 364.4929504394531 881.770622253418,406.4929504394531"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(881.770622253418,364.4929504394531)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="77_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M877.806022644043, 258.7031555175781 877.806022644043,199.95315551757812"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(877.806022644043,258.7031555175781)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="78_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M881.770622253418, 488.4929504394531 881.770622253418,446.4929504394531"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(881.770622253418,488.4929504394531)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="78_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M881.770622253418, 554.6368103027344 881.770622253418,613.3868103027344"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(881.770622253418,554.6368103027344)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="81_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M-168.22937774658203, 1196.4576110839844 -168.22937774658203,1150.4576110839844"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(-168.22937774658203,1196.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="81_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M-186.22937774658203, 1201.7076110839844 -248.22937774658203,1235.4576110839844"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(-186.22937774658203,1201.7076110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="82_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M-168.229377746582, 1068.4576110839844 -168.22937774658203,1110.4576110839844"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(-168.229377746582,1068.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="82_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M-172.19397735595703, 966.6323547363281 -172.19397735595703,907.8823547363281"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(-172.19397735595703,966.6323547363281)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="83_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M-168.22937774658203, 1196.4576110839844 -168.22937774658203,1150.4576110839844"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(-168.22937774658203,1196.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="83_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M-150.22937774658203, 1201.7076110839844 -88.22937774658203,1235.4576110839844"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(-150.22937774658203,1201.7076110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="84_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M-168.22937774658203, 1192.4576110839844 -168.22937774658203,1150.4576110839844"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(-168.22937774658203,1192.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="84_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M-168.22937774658203, 1246.7076110839844 -168.22937774658203,1305.4576110839844"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(-168.22937774658203,1246.7076110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="85_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M-168.229377746582, 1064.4576110839844 -168.22937774658203,1110.4576110839844"/>
+                <circle class="bezier-circle b1" r="7px" transform="translate(-168.229377746582,1064.4576110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="85_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M-150.22937774658203, 1059.2076110839844 -88.22937774658203,1025.4576110839844"/>
+                <circle class="bezier-circle b2" r="7px" transform="translate(-150.22937774658203,1059.2076110839844)" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+            </g>
+            <g id="88_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2087.7856979370117, 671.3269958496094 2076.2031784057617,635.2547912597656"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2087.7856979370117,671.3269958496094)"/>
+            </g>
+            <g id="88_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2094.2031784057617, 686.5047912597656 2156.2031784057617,720.2547912597656"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2094.2031784057617,686.5047912597656)"/>
+            </g>
+            <g id="89_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2076.2031784057617, 549.2547912597656 2076.2031784057617,595.2547912597656"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2076.2031784057617,549.2547912597656)"/>
+            </g>
+            <g id="89_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2094.2031784057617, 544.0047912597656 2156.2031784057617,510.2547912597656"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2094.2031784057617,544.0047912597656)"/>
+            </g>
+            <g id="90_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2072.8938522338867, 669.6723327636719 2076.2031784057617,635.2547912597656"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2072.8938522338867,669.6723327636719)"/>
+            </g>
+            <g id="90_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2058.2031784057617, 686.5047912597656 1996.2031784057617,720.2547912597656"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2058.2031784057617,686.5047912597656)"/>
+            </g>
+            <g id="91_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2049.7290573120117, 422.53875732421875 2076.2031784057617,595.2547912597656"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2049.7290573120117,422.53875732421875)"/>
+            </g>
+            <g id="91_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2145.6978073120117, 259.08294677734375 2182.0996627807617,195.36904907226562"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2145.6978073120117,259.08294677734375)"/>
+            </g>
+            <g id="92_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2061.3113327026367, 550.9093933105469 2076.2031784057617,595.2547912597656"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2061.3113327026367,550.9093933105469)"/>
+            </g>
+            <g id="92_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2058.2031784057617, 544.0047912597656 1996.2031784057617,510.2547912597656"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2058.2031784057617,544.0047912597656)"/>
+            </g>
+            <g id="93_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2069.5845260620117, 552.5640563964844 2076.2031784057617,595.2547912597656"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2069.5845260620117,552.5640563964844)"/>
+            </g>
+            <g id="93_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2040.2031784057617, 559.0047912597656 1916.2031784057617,530.2547912597656"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2040.2031784057617,559.0047912597656)"/>
+            </g>
+            <g id="94_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2071.2393112182617, 814.5893249511719 2076.2031784057617,635.2547912597656"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2071.2393112182617,814.5893249511719)"/>
+            </g>
+            <g id="94_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2200.3005905151367, 981.3546447753906 2249.9395065307617,1041.7591247558594"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2200.3005905151367,981.3546447753906)"/>
+            </g>
+            <g id="97_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2365.7639694213867, 407.64703369140625 2375.6917037963867,595.2547302246094"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2365.7639694213867,407.64703369140625)"/>
+            </g>
+            <g id="97_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2226.7747116088867, 259.0829620361328 2182.0996627807617,195.36904907226562"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2226.7747116088867,259.0829620361328)"/>
+            </g>
+            <g id="98_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2388.9287643432617, 796.3883361816406 2375.6917037963867,635.2547302246094"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2388.9287643432617,796.3883361816406)"/>
+            </g>
+            <g id="98_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2279.7229537963867, 971.4267272949219 2249.9395065307617,1041.7591247558594"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2279.7229537963867,971.4267272949219)"/>
+            </g>
+            <g id="99_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2375.6917037963867, 549.2547302246094 2375.6917037963867,595.2547302246094"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2375.6917037963867,549.2547302246094)"/>
+            </g>
+            <g id="99_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2357.6917037963867, 544.0047302246094 2295.6917037963867,510.2547302246094"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2357.6917037963867,544.0047302246094)"/>
+            </g>
+            <g id="100_b1" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2375.6917037963867, 681.2547302246094 2375.6917037963867,635.2547302246094"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2375.6917037963867,681.2547302246094)"/>
+            </g>
+            <g id="100_b2" class="bezier" visibility="hidden">
+                <path class="connect-line" d="M2357.6917037963867, 686.5047302246094 2295.6917037963867,720.2547302246094"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(2357.6917037963867,686.5047302246094)"/>
+            </g>
+            <g id="103_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="103_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="104_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="104_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="107_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="107_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+        </g>
+        <g id="text-labels">
+            <g id="l1" class="text-label">
+                <text class="label" transform="translate(2018.4269409179688,151.675537109375)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">L-Histidine</text>
+            </g>
+            <g id="l2" class="text-label">
+                <text class="label" transform="translate(839.0264892578125,84.97967529296875)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">L-Glutamate</text>
+            </g>
+            <g id="l3" class="text-label">
+                <text class="label" transform="translate(985.7166748046875,957.1920776367188)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">L-Glutamine</text>
+            </g>
+            <g id="l4" class="text-label">
+                <text class="label" transform="translate(-520.8319208621979,866.0062255859375)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Alpha-D-Ribose 5-phosphate</text>
+            </g>
+            <g id="l5" class="text-label">
+                <text class="label" transform="translate(-302.7788391113281,810.5018920898438)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Precursor</text>
+            </g>
+            <g id="l6" class="text-label">
+                <text class="label" transform="translate(1340.8673095703125,1126.1350708007812)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Extracellular</text>
+            </g>
+            <g id="l7" class="text-label">
+                <text class="label" transform="translate(1365.686767578125,1177.4288330078125)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">L-Histidine</text>
+            </g>
+        </g>
+        <g id="direction-arrow-container" transform="translate(1899.9395065307617,1041.7591247558594)rotate(180)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <path class="direction-arrow" d="M0 -5 L0 5 L20 5 L20 10 L30 0 L20 -10 L20 -5 Z" transform="translate(30,0)scale(2.5)" style="visibility: hidden;"/>
+        </g>
+    </g>
+</svg>
