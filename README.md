@@ -35,3 +35,10 @@ By the end of this course, you will be able to:
 
 Professor Scott Hinton, Professor  emeritus, Utah State University
 
+# Warning
+
+COBRApy has been updated to version 0.25.0 which has changed some of the input/output commands. To use these modules you should set up the following python environment.
+
+pip install cobra==0.24.0
+pip install cameo
+pip install cobrapy_bigg_client
